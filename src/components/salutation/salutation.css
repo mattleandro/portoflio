@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "eurostile";
+  src: url("eurostile.TTF") format("TTF");
+  /* Adicione outros formatos de fonte, como woff, ttf, svg, etc., para maior compatibilidade */
+}
+
+.salutation-container {
+  background-color: #6e07f3;
+  min-height: 100vh;
+}
+
+.salutation-text {
+  display: flex;
+  flex-direction: column;
+  font-family: "eurostile", sans-serif;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.tecnologias-text {
+  display: flex;
+  justify-content: space-between;
+  background-color: #141c3a;
+}
+
+.tecnologias {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tecnologias div {
+  text-align: center; /* Alinhamento de texto centralizado */
+  border-right: 1px solid #ccc;
+}
+
+.tecnologias h1 {
+  font-family: "eurostile", sans-serif;
+  font-size: 32px;
+}
+
+.tecnologias h2 {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+  color: #141c3a;
+  font-family: "eurostile", sans-serif;
+}
+
+.salutation-text h1 {
+  font-family: "eurostile", sans-serif;
+
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.salutation-text p {
+  font-family: monospace;
+
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 30;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Define três colunas de largura igual */
+  width: 100%; /* Largura total da grade */
+  text-align: center; /* Centraliza o conteúdo na coluna */
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para o título */
+.grid-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos para o parágrafo */
+.grid-item p {
+  font-size: 1rem;
+}

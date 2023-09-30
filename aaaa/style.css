@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "eurostile";
+  src: url("eurostile.TTF") format("TTF");
+  /* Adicione outros formatos de fonte, como woff, ttf, svg, etc., para maior compatibilidade */
+}
+
+h1 {
+  font-weight: 800;
+  color: #141c3a;
+  font-size: 40px;
+}
+
+header a {
+  position: relative;
+  top: 30px;
+  left: 90%;
+  background-color: white;
+  width: auto;
+  border: solid 3px blue;
+  border-radius: 7px;
+  padding: 10px;
+  font-family: "eurostile", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color: #7510f7;
+  color: white;
+  border: solid 3px;
+  transition: 0.5s;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "eurostile", sans-serif;
+}
+
+.homee {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "eurostile", sans-serif;
+  margin-top: 200px;
+}
+
+.div-redonda {
+  width: 200px;
+  height: 200px;
+  background-image: url("profile-photo.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  border: solid 1px #7510f7;
+}
+
+.svg-container {
+  padding-top: 10px;
+}
+
+.svg {
+  max-width: 800px;
+  max-height: 378px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.apresentacao {
+  min-height: 100vh;
+  background-color: #6e07f3;
+  padding-top: 200px;
+}
+
+.apresentacao h1 {
+  color: white;
+  font-family: "eurostile", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.apresentacao p {
+  color: white;
+  font-family: monospace;
+  font-weight: 300;
+  font-size: 25px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.tecnologias {
+  font-family: "eurostile", sans-serif;
+  font-weight: 400;
+  color: #141c3a;
+  font-size: 24px;
+}
+
+.tecnologias p {
+  color: black;
+  font-size: 18px;
+  vertical-align: inherit;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Cria três colunas de largura igual */
+  border: solid 1px black;
+}
+
+.col {
+  background-color: white; /* Cor de fundo das colunas */
+  padding: 10px; /* Espaçamento interno das colunas */
+  text-align: center; /* Alinhamento de texto centralizado */
+  border-right: 1px solid #ccc; /* Adicione uma borda direita a cada coluna, exceto à última */
+}
+
+/* Remove a borda da última coluna */
+.col:last-child {
+  border-right: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 382px); /* Largura de 382 pixels */
+  grid-template-rows: repeat(2, 255px); /* Altura de 255 pixels */
+}
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.grid-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: scale(
+    1.1
+  ); /* Aplica um zoom de 10% quando o mouse passa por cima */
+}

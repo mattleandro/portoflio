@@ -1,0 +1,37 @@
+.entrance_container {
+  display: flex;
+  justify-content: center;
+}
+
+.entrance_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.entrance_text h1 {
+  margin-top: 240px;
+}
+
+.profile_photo {
+  width: 200px;
+  height: 200px;
+  background-image: url("profile-photo.jpg");
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  border: solid 1px #7510f7;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.svg {
+  width: 800px;
+  height: 324px;
+  background-image: url("hero-devices.svg");
+  background-size: contain;
+  background-position: center center;
+}

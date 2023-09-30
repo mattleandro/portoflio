@@ -1,0 +1,17 @@
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  font-family: "eurostile", sans-serif;
+}
+
+@font-face {
+  font-family: "eurostile";
+  src: url("eurostile.TTF") format("TTF");
+  /* Adicione outros formatos de fonte, como woff, ttf, svg, etc., para maior compatibilidade */
+}
+h1 {
+  font-weight: 800;
+  color: #141c3a;
+  font-size: 40px;
+}
